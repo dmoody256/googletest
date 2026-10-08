@@ -209,6 +209,8 @@ if (gtest_build_tests)
     test/googletest-param-test2-test.cc)
   cxx_test(googletest-port-test gtest_main)
   cxx_test(gtest_pred_impl_unittest gtest_main)
+  cxx_test(gtest_premature_exit_file_failure_test gtest
+    test/gtest_premature_exit_file_failure_test.cc)
   cxx_test(gtest_premature_exit_test gtest
     test/gtest_premature_exit_test.cc)
   cxx_test(googletest-printers-test gtest_main)
